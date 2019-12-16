@@ -18,13 +18,13 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
     </script>
     <script type="text/babel">
-       function App() {
+       function App(props) {
             
             return (
                 <div>
                     <header>
                         <img width="120" height="180" src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Picture of Sally Student"/>
-                        <h1>Sally Student</h1>
+                        {props.children}
                         <h2>Software Engineer</h2>
                     </header>
 
@@ -60,7 +60,9 @@
             );
         }
         ReactDOM.render(
-            <App> </App>,
+            <App> 
+                <h1>Mandy Manager </h1>    
+            </App>,
             document.querySelector('#application-root')
         );
 
