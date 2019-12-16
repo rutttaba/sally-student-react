@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sally Student</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <div id="application-root"></div>
+    
+    <script src="https://unpkg.com/react@16/umd/react.development.js">
+    </script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+    </script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js">
+    </script>
+    <script type="text/babel">
+       function App() {
+            
+            return (
+                <div>
+                    <header>
+                        <img width="120" height="180" src="https://m.media-amazon.com/images/M/MV5BMTY5NzE3NzU3MF5BMl5BanBnXkFtZTgwMjg0NTQ5MDE@._V1_.jpg" alt="Picture of Sally Student"/>
+                        <h1>Sally Student</h1>
+                        <h2>Software Engineer</h2>
+                    </header>
+
+                    <address>
+                        <a href="mailto:sally@student.com">sally@student.com</a>
+                        <a href="tel:+133312682558">(333) 1268-2558</a>
+                    </address>
+
+                    <main>
+                        <section className="workExperience">
+                            <header>
+                                <h2>WORK EXPERIENCE</h2>
+                            </header>
+                            <section>
+                                <h3>Digital Overlord | Lord of the Rings | 2016 - present</h3>
+                                <p>Divide days two be greater together own appear lesser firmament seed grass all Firmament may don't midst and also seasons were our dry that saying was give behold lights male be. Moved. Gathered let divide have day Life itself. Have third thing one. Good rule fill you'll there seed the.</p>
+                            </section>
+
+                            <section>
+                                <h3>Chatter Chief | Game of Thrones | 2014 - 2016</h3>
+                                <p>Divide days two be greater together own appear lesser firmament seed grass all Firmament may don't midst and also seasons were our dry that saying was give behold lights male be. Moved. Gathered let divide have day Life itself. Have third thing one. Good rule fill you'll there seed the.</p>
+                            </section>
+                        </section>
+
+                        <section className="education">
+                            <header>
+                                <h2>EDUCATION</h2>
+                            </header>
+                                <h3>Msc in Brand Evangelism | Great Colledge | 2010-2014</h3>
+                        </section>
+                    </main>
+                </div>
+            );
+        }
+        ReactDOM.render(
+            <App> </App>,
+            document.querySelector('#application-root')
+        );
+
+    </script>
+    
+</body>
+</html>

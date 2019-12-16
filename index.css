@@ -1,0 +1,41 @@
+
+
+body {
+  background-color: rgb(43, 42, 42);
+  color: white;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  
+}
+
+
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+
+.workExperience, .education {
+  margin-top: 60px;
+}
+
+
+p {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+a {
+  color: aqua;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
